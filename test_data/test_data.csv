@@ -1,0 +1,6 @@
+Brand,Model,AccelSec,TopSpeed_KmH,Range_Km,Efficiency_WhKm,FastCharge_KmH,RapidCharge,PowerTrain,PlugType,BodyStyle,Segment,Seats,PriceEuro
+Volkswagen ,ID.3 Pure,10,160,270,167,250,Yes,RWD,Type 2 CCS,Hatchback,C,5,30000
+Nissan ,e-NV200 Evalia ,14,123,190,200,190,Yes,FWD,Type 1 CHAdeMO,SPV,N,7,33246
+BMW ,i4 ,4,200,450,178,650,Yes,RWD,Type 2 CCS,Sedan,D,5,65000
+Audi ,e-tron GT ,3.5,240,425,197,850,Yes,AWD,Type 2 CCS,Sedan,F,4,125000
+Hyundai ,Kona Electric 39 kWh,9.9,155,255,154,210,Yes,FWD,Type 2 CCS,SUV,B,5,33971

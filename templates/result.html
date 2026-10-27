@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="TemplateMo">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <title>ELECTRIC VEHICLE COST FORECASTING THROUGH MACHINE LEARNING TECHNIQUES</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="../static/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="../static/assets/css/templatemo-finance-business.css">
+    <link rel="stylesheet" href="../static/assets/css/performance.css">
+<!--
+
+Finance Business TemplateMo
+
+https://templatemo.com/tm-545-finance-business
+
+-->
+  </head>
+
+  <body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+
+    <!-- Header -->
+
+    
+    <header class="">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="{{url_for('index')}}"><h2> Electric Vehicle Price</h2></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="{{url_for('index')}}">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{url_for('login')}}">Login</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link" href="{{url_for('upload')}}">Upload</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{url_for('prediction')}}">Prediction</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link" href="{{url_for('chart')}}">Chart</a>
+              </li>  
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Page Content -->
+    <div class="page-heading header-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Result</h1>
+         
+            <span>Electric Vehicle Price</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+ 
+<br>
+<br>
+  
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>  <em>ELECTRIC VEHICLE COST FORECASTING THROUGH MACHINE LEARNING TECHNIQUES</em></h2>
+              <span>Predicted Result</span>
+            </div>
+          </div>
+   
+
+          <html lang="en">
+            <head>
+                <meta charset="utf-8">
+                <meta content="width=device-width, initial-scale=1.0" name="viewport">
+                <title>Result: ELECTRIC VEHICLE COST FORECASTING THROUGH MACHINE LEARNING TECHNIQUES</title>
+            
+                <!-- Google Web Fonts -->
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Playfair+Display:wght@400;900&display=swap" rel="stylesheet">
+            
+                <!-- Customized Bootstrap Stylesheet -->
+                <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+            
+                <!-- Custom CSS for Table -->
+                <style>
+                    .table-container {
+                        margin: 0 auto;
+                        padding: 20px;
+                        max-width: 800px;
+                    }
+                    table {
+                        width: 100%;
+                        border-collapse: collapse;
+                        margin: 25px 0;
+                        font-size: 18px;
+                        font-family: 'Open Sans', sans-serif;
+                        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+                    }
+                    table th, table td {
+                        padding: 12px 15px;
+                        border: 1px solid #ddd;
+                        text-align: left;
+                    }
+                    table th {
+                        background-color: #f2f2f2;
+                        color: #333;
+                        font-weight: bold;
+                    }
+                    table tr:nth-child(even) {
+                        background-color: #f9f9f9;
+                    }
+                    table tr:hover {
+                        background-color: #f1f1f1;
+                    }
+                    table tr td:first-child {
+                        border-radius: 10px 0 0 10px;
+                    }
+                    table tr td:last-child {
+                        border-radius: 0 10px 10px 0;
+                    }
+                    .download-btn {
+                        display: block;
+                        margin: 20px auto;
+                        padding: 10px 20px;
+                        background-color: #28a745;
+                        color: white;
+                        border: none;
+                        border-radius: 5px;
+                        font-size: 16px;
+                        cursor: pointer;
+                    }
+                    .download-btn:hover {
+                        background-color: #218838;
+                    }
+                </style>
+            </head>
+            <body>
+            
+            <div class="table-container">
+                <table>
+                 <center> <p> The following information was provided by you:</p></center>
+                    <thead>
+                        <tr>
+                            <th>Input</th>
+                            <th>Output</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Brand</td>
+                            <td>{{bra}}</td>
+                        </tr>
+                        <tr>
+                            <td>Model</td>
+                            <td>{{mod}}</td>
+                        </tr>
+                        <tr>
+                            <td>AccelSec</td>
+                            <td>{{AccelSec}}</td>
+                        </tr>
+                        <tr>
+                            <td>TopSpeed_KmH</td>
+                            <td>{{TopSpeed_KmH}}</td>
+                        </tr>
+                        <tr>
+                            <td>Range_Km</td>
+                            <td>{{Range_Km}}</td>
+                        </tr>
+                        <tr>
+                            <td>Efficiency_WhKm</td>
+                            <td>{{Efficiency_WhKm}}</td>
+                        </tr>
+                        <tr>
+                            <td>FastCharge_KmH</td>
+                            <td>{{FastCharge_KmH}}</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>RapidCharge</td>
+                            <td>{{rapid}}</td>
+                        </tr>
+                        <tr>
+                          <td>PowerTrain</td>
+                          <td>{{power}}</td>
+                      </tr>
+                      <tr>
+                        <td>PlugType</td>
+                        <td>{{plug}}</td>
+                    </tr>
+                    <tr>
+                      <td>BodyStyle</td>
+                      <td>{{Body}}</td>
+                  </tr>
+                  <tr>
+                    <td>Segment</td>
+                    <td>{{Seg}}</td>
+                </tr>
+                <tr>
+                  <td>Seats</td>
+                  <td>{{Seats}}</td>
+              </tr>
+                        <tr>
+                            <td>Model</td>
+                            <td>{{model}}</td>
+                        </tr>
+                        <tr>
+                            <td>PriceEuro</td>
+                            <td>{{prediction_text}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            
+                <button id="download-pdf" class="download-btn">Download PDF</button>
+            </div>
+            
+            <!-- JavaScript for PDF Download -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+            <script>
+                const btn = document.getElementById('download-pdf');
+                const table = document.querySelector('table');
+            
+                btn.addEventListener('click', function() {
+                    var opt = {
+                        margin: 1,
+                        filename: 'EV_CAR_PRICE.pdf',
+                        image: { type: 'jpeg', quality: 1 },
+                        html2canvas: { scale: 2 }
+                    };
+                    html2pdf().set(opt).from(table).save();
+                });
+            </script>
+            
+            </body>
+            </html>
+
+
+        </div>
+      </div>
+
+<br>
+<br>
+     
+    <footer>
+      <div class="container">
+        <div class="row">
+           
+        </div>
+      </div>
+    </footer>
+    
+    <div class="sub-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+           
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../static/vendor/jquery/jquery.min.js"></script>
+    <script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Additional Scripts -->
+    <script src="../static/assets/js/custom.js"></script>
+    <script src="../static/assets/js/owl.js"></script>
+    <script src="../static/assets/js/slick.js"></script>
+    <script src="../static/assets/js/accordions.js"></script>
+
+    <script language = "text/Javascript"> 
+      cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+      function clearField(t){                   //declaring the array outside of the
+      if(! cleared[t.id]){                      // function makes it static and global
+          cleared[t.id] = 1;  // you could use true and false, but that's more typing
+          t.value='';         // with more chance of typos
+          t.style.color='#fff';
+          }
+      }
+    </script>
+
+  </body>
+</html>
